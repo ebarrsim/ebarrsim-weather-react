@@ -5,6 +5,11 @@
   margin: 20px auto;
 }
 
+.App h1 {
+  text-align: center;
+  color: rgb(99, 134, 229);
+}
+
 .App footer {
   font-size: 11px;
   margin: 10px 0;

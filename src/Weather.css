@@ -2,12 +2,12 @@
   padding: 20px;
   margin: 25px auto;
   font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid #63a8dd;
+  border: 1px solid rgba(99, 168, 221, 10);
   border-radius: 10px;
   color: rgb(99, 168, 221);
 }
 
-.Weather h1 {
+.Weather h2 {
   color: rgb(99, 134, 229);
 }
 
@@ -36,6 +36,11 @@
   top: -22px;
   margin-left: 3px;
   line-height: 1;
+}
+
+.Weather .preciseData {
+  position: relative;
+  bottom: 50px;
 }
 
 .Weather form {
