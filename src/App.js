@@ -9,7 +9,7 @@ function App() {
       <Weather />
       <footer>
         This website was created by Eleanor Barr-Sim and is {" "} 
-      <a href="https://github.com/ebarrsim/ebarrsim-weather-react" target="_blank">
+      <a href="https://github.com/ebarrsim/ebarrsim-weather-react" target="_blank" rel="noreferrer">
       open-sourced on Github
       </a>
       </footer>
