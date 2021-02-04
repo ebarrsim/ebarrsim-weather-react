@@ -35,9 +35,10 @@ export default function Weather(props) {
         iconUrl: "https://ssl.gstatic.com/onebox/weather/64/snow.png",
         humidity: response.data.main.humidity,
         wind: response.data.wind.speed, 
+        city: response.data.name,
     });  
 
-
+ }
 
 if (data.ready) {
     return (
@@ -64,6 +65,5 @@ if (data.ready) {
  } else {
    search();
    return "Loading...";
-}
 }
 }
