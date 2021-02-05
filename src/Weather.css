@@ -20,7 +20,7 @@
   list-style: none;
 }
 
-.Weather img {
+.Weather canvas {
   margin-top: 11px;
   padding-right: 10px;
   width: 64px;
