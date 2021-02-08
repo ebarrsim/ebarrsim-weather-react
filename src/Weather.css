@@ -2,7 +2,7 @@
   padding: 20px;
   margin: 25px auto;
   font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid rgba(99, 168, 221, 10);
+  border: 1px solid rgba(98, 95, 88, 0.2);
   border-radius: 10px;
   color: rgb(99, 168, 221);
 }
@@ -45,4 +45,8 @@
 
 .Weather form {
   margin-top: 40px;
+}
+
+.loading {
+  color: rgb(99, 168, 221);
 }
