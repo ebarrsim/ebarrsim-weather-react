@@ -12,16 +12,14 @@ export default function WeatherFunction(props) {
         setLoaded(true);
     }
 
-    if (loaded) {
-        console.log(forecast.list[0]);
+    if (loaded && props.city === forecast.city.name) {
         return (
             <div className="WeatherForecast row">
-                    <WeatherForecastPreview  props={forecast.list[0]}/>
-                    <WeatherForecastPreview  props={forecast.list[1]}/>
-                    <WeatherForecastPreview  props={forecast.list[2]}/>
-                    <WeatherForecastPreview  props={forecast.list[3]}/>
-                    <WeatherForecastPreview  props={forecast.list[4]}/>
-                    <WeatherForecastPreview  props={forecast.list[5]}/>
+                    <WeatherForecastPreview  data={forecast.list[0]}/>
+                    <WeatherForecastPreview  data={forecast.list[1]}/>
+                    <WeatherForecastPreview  data={forecast.list[2]}/>
+                    <WeatherForecastPreview  data={forecast.list[3]}/>
+                    <WeatherForecastPreview  data={forecast.list[4]}/>
             </div>
         );
     } else {
